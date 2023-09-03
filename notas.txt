@@ -1,0 +1,32 @@
+para agregar elementos a la lista de tareas con js
+
+keydown: es un elemento que se activo al hacer enter desde el browser, como cuando se hace click.
+
+function agregarTarea() {
+    if (input.value) =>>>> es para corroborar si el usario ingresó una cadena de caracteres. Si no ingresa nada false, si engresa algo true.
+
+
+let tareaNueva = document.createElement('div')  =>>>> creamos un nuevo elemento en div, para la creación de una tarea nueva.
+
+
+text.innerText= {input.value} nos permite obtener lo que ingresóel usuario
+y lo guardamos dentro de p, con let texto
+
+
+luego de tener los iconos con let iconos, se los va a gregar a let tareaNueva. tareaNueva.appendChild() agrega un nuevo hijo a la tareaNueva.
+Y agregamos el elemento texto que acabamos de crear.
+
+
+// Corrección: 'check-cicle-fill' a 'check-circle-fill'  para que reconosca que los iconos de bootrap
+icono-completar: clase personalizada.
+
+
+metodo toggle: nos permite alternar una clases., si en el dom la tiene la clase completda se va a agregarPara no tener que escribir un condicional.
+
+
+completarTarea va a recibir un objeto de evento, pero vamoa tener que escribir una linea adicional para obtener "tarea"
+se puede usar el elemento target, que al hacer click sobre uno de los iconos se marque como completada
+
+
+
+https://www.youtube.com/watch?v=koiPxFFiqJ4&t=3534s
